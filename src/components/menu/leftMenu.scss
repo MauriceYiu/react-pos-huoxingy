@@ -1,0 +1,34 @@
+#left-menu {
+    width: calc(100% + 19px);
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    .logo {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        img {
+            width: 100%;
+        }
+    }
+    .menu-wrap {
+        .menu-item {
+            text-align: center;
+            padding: 25px;
+            cursor: pointer;
+            i {
+                font-size: 35px;
+                color: #fff;
+            }
+            .menu-name {
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+        .active{
+            li{
+                background: #999;
+            }
+        }
+    }
+}

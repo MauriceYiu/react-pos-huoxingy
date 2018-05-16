@@ -1,0 +1,55 @@
+#top-nav{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+    padding: 0 10px;
+    box-shadow: 0 0 9px #000;
+    .welcome{
+        display: inline-block;
+        // width: 20%;
+        height: 100%;
+        line-height: 50px;
+    }
+    .marq{
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        line-height: 50px;
+        left: 20%;
+        top: 0;
+        marquee{
+            height: 100%;
+            cursor: pointer;
+        }
+    }
+    .now-clerk{
+        position: absolute;
+        right:50px;
+        top:0px;
+        height: 100%;
+        .logout,.clerk-name{
+            display: inline-block;
+            height: 100%;
+            line-height: 50px;
+            vertical-align: bottom;
+            padding:0 5px;
+            cursor: pointer;
+        }
+        .clerk-name{
+            margin:0 15px;
+            font-size: 20px;
+        }
+        .now-time{
+            display: inline-block;
+            font-size: 14px;
+            text-align: center;
+            height: 100%;
+            padding: 2px 0;
+            span{
+                display: block;
+                height: 50%;
+            }
+        }
+    }
+}
